@@ -7,7 +7,7 @@ class MathController {
     }
 
     fun subtract(num1: Double, num2: Double): Double {
-        return 2.0
+        return num1 - num2
     }
 
     fun multiply(num1: Double, num2: Double): Double {
