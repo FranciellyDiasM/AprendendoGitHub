@@ -15,6 +15,6 @@ class MathController {
     }
 
     fun divide(num1: Double, num2: Double): Double {
-        return 2.0
+        return num1 * num2
     }
 }
