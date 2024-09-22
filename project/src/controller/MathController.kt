@@ -11,10 +11,14 @@ class MathController {
     }
 
     fun multiply(num1: Double, num2: Double): Double {
-        return 2.0
+        return num1 * num2
     }
 
-    fun divide(num1: Double, num2: Double): Double {
-        return 2.0
+    fun divide(num1: Double, num2: Double): String {
+        if(num2 == 0.0) {
+            return "Operacao invalida"
+        }
+
+        return (num1 / num2).toString()
     }
 }
